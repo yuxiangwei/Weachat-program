@@ -20,7 +20,7 @@ var_dump(
 );
 echo '</pre>';
 
-/*
+
 调用图片上传接口示例
 
 $method = 'youzan.materials.storage.platform.img.upload';//要调用的api名称
@@ -38,4 +38,3 @@ var_dump(
     $client->post($method, $api_version, $my_params, $my_files)
 );
 echo '</pre>';
-*/
